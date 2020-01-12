@@ -1,9 +1,13 @@
 /* index.css */
-*       {font-family: Arial, Helvetica, sans-serif;}
+*       {font-family: Cambria, Times, sans-serif;}
 
-h1      {color: red;}
+h1, h2  {background-color: lightgray;}
 
 p, li   {font-size: 18px;}
 
+#p01    {color: crimson;}
+
 a       {text-decoration: none;}
 
+/* Height & width, blur effect, color*/
+img     {box-shadow: 20px 20px 10px gray;}
