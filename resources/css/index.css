@@ -1,13 +1,16 @@
 /* index.css */
-*       {font-family: Cambria, Times, sans-serif;}
+body    {background-color:#505050}
 
-h1, h2  {background-color: lightgray;}
+*       {font-family: Courier, monospace;}
 
-p, li   {font-size: 18px;}
+/*h1, h2  {background-color: lightgray;}*/
+
+p, li   {font-size: 18px; color: #FFFFFF;}
 
 #p01    {color: crimson;}
 
-a       {text-decoration: none;}
+#BackstageLink
+        {font-size: 18px; color: #FFFFFF;}
 
 /* Height & width, blur effect, color*/
 img     {box-shadow: 20px 20px 10px gray;}
