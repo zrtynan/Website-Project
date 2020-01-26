@@ -1,13 +1,54 @@
 /* index.css */
-*       {font-family: Cambria, Times, sans-serif;}
+body    {background-color:#505050}
 
-h1, h2  {background-color: lightgray;}
+*       {font-family: Courier, monospace;}
 
-p, li   {font-size: 18px;}
+/*h1, h2  {background-color: lightgray;}*/
+
+/*--Horizontal Navigation Menu--*/
+.NavBar ul
+        {
+        list-style: none;
+        float: center;
+        margin: 0px;
+        padding: 0px;
+        height:40px;
+        background-color:darkred;
+        }
+
+.NavBar li
+        {
+        display: inline-block;
+        margin: 0px;
+        padding: 10px;
+        height: 20px;
+        text-align: center;
+        }
+
+.NavBar li:hover
+        {
+        background-color: black;
+        }
+
+/*--Fonts and Stuff for Links and Text--*/
+p, li, a.Hyperlinks, a.Nav_link
+        {
+        font-size: 18px; color: #FFFFFF;
+        text-decoration:none}
+
+a.Navigation:hover
+        {
+        background-color: black
+        }
+
+a.Hyperlinks:hover
+        {
+        background-color:#darkred;
+        padding:5px;
+        margin:5px:
+        }
 
 #p01    {color: crimson;}
 
-a       {text-decoration: none;}
-
 /* Height & width, blur effect, color*/
-img     {box-shadow: 20px 20px 10px gray;}
+img     {box-shadow: 20px 20px 10px black;}
